@@ -8,7 +8,8 @@
 
 Display the list of messages
 
-> :say x        # Replace x with the number
+> :say x
+> # Replace x with the number
 
 Say the message of the number
 
