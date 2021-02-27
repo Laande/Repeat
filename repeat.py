@@ -40,7 +40,7 @@ def speech_in(message):
             if i < 10:
                 if messages[f"{i}"]:
                     messages[f"{i+1}"] = messages[f"{i}"]
-        messages["1"] = mess
+        messages["1"] = mess.replace('"', '\\"')
 
         print(messages)
 
